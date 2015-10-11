@@ -36,6 +36,7 @@ body {
 	max-width: 978px;
 	margin: 0 auto;
 	padding: 0;
+	background-color: beige;
 }
 
 
@@ -151,12 +152,6 @@ input[type="text"]{
 
 /* PAGE: Gallery */
 
-.container-images {
-	background-color: #fff;
-	margin: 0 auto;
-	padding: 10px;
-}
-
 
 img {
 	width: 300px;
@@ -166,4 +161,23 @@ img {
 	display: inline;
 	float: left;
 	margin: 10px;
+}
+
+/* PAGE: News */
+.article {
+	padding: 10px;
+	margin:20px;
+	border-bottom: 2px dashed brown;
+}
+
+.article p {
+	text-line: justify;
+	line-height: 30px;
+}
+
+.trump-header {
+	margin: 0;
+	padding: 15px 10px;
+	background-color: grey;
+	border-bottom: 5px solid #000;
 }
