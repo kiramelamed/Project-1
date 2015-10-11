@@ -148,3 +148,22 @@ input[type="text"]{
 	margin: 0;
 	font-size: 20px;
 }
+
+/* PAGE: Gallery */
+
+.container-images {
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+img {
+	width: 300px;
+}
+
+.image {
+	display: inline;
+	float: left;
+	margin: 10px;
+}
