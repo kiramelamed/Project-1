@@ -2,16 +2,80 @@
 <html>
 <head>
 	<title>Project 1 - Home</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+	<style type="text/css">
+
+		.clear {
+			clear: both;
+		}
+
+		.footer p {
+			color:grey;
+			font-size: 10px;
+			text-align: center;
+			padding-top: 20px;
+		}
+
+		.main-nav, .footer {
+			background-color: lavender;
+
+		}
+
+		.footer {
+			height: 50px;
+		}
+
+		.main-nav {
+			height: 100px;
+			overflow: hidden;
+		}
+
+		.main-nav ul li {
+			display: inline-block;
+			padding: 45px 20px  0 0;
+		}
+
+		.main-nav  ul li a {
+			text-decoration: none;
+			font-family: 'Nunito', sans-serif;
+			font-size: 18px;
+			text-transform: uppercase;
+			margin: 0 5px;
+			color: purple;
+		}
+
+		.main-nav  ul li a:hover {
+			color: #000;
+		}
+
+		.nav-image, .nav-menu {
+			width: 50%;
+			display: inline-block;
+			float: left;
+		}
+
+		.nav-image img {
+			width: 100%;
+
+		}
+
+
+	</style>
 </head>
 <body>
 	<nav class="main-nav">
-		<img src="">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="gallery.html">Gallery</a></li>
-			<li><a href="news.html">News</a></li>
-		</ul>
+		<div class="nav-image">
+			<img src="img/leopard.jpg">
+		</div>
+		
+		<div class="nav-menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="news.html">News</a></li>
+			</ul>
+		</div>
 	</nav>
 
 	<div class='container'>
