@@ -1,0 +1,150 @@
+/* STRUCTURE */
+.clear {
+	clear: both;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav {
+	height: 100px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-image, .nav-menu {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.left-side, .right-side {
+	width: 50%;
+	float: left;
+}
+
+.footer {
+	height: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 978px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+.footer p {
+	color:grey;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 20px;
+	margin: 0;
+}
+
+/* STYLING */
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #fff;
+}
+
+.left-side {
+	background-color: beige;
+}
+
+/* Button */
+.btn-container {
+	width: 200px;
+	margin: 25px auto;
+}
+
+.btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  color: #f7ff00;
+  font-size: 16px;
+  background: #86888a;
+  padding: 14px 20px 14px 20px;
+  border: solid #000000 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a11a1a;
+  text-decoration: none;
+}
+
+/* Navigation*/
+.main-nav, .footer {
+	background-color: #000;
+}
+
+.main-nav ul li {
+	display: inline-block;
+	padding: 45px 20px  0 0;
+}
+
+.main-nav  ul li a {
+	text-decoration: none;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 0 5px;
+	color: yellow;
+}
+
+.main-nav  ul li a:hover {
+	color: brown;
+}
+
+.nav-image img {
+	width: 100%;
+
+}
+
+/* Blog */
+.blog-title, .blog-date, .blog-entry {
+	padding-left: 10px;
+}
+
+.blog-title {
+	margin: 0;
+	padding: 15px 10px;
+	background-color: grey;
+}
+
+.blog-date {
+	background-color: #000;
+	color: white;
+	padding: 15px 10px;
+	margin: 0;
+}
+
+.blog-entry p {
+	text-indent: 20px;
+	padding: 10px 10px 15px 0;
+}
+
+/* Search */
+.input-container {
+	height: 300px;
+	background-color: brown;
+	margin: 0;
+	padding: 25px 20px;
+}
+
+input[type="text"]{
+	border: 1px solid black;
+	width: 150px;
+	padding: 11px;
+	margin: 0;
+	font-size: 20px;
+}
